@@ -1,0 +1,16 @@
+{
+  "name": "jp-poultry",
+  "version": "1.0.0",
+  "description": "jp-poultry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vineetvv",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "epress": "0.0.1-security",
+    "pg": "^8.3.0"
+  }
+}
