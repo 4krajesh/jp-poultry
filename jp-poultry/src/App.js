@@ -1,11 +1,9 @@
 import React, { Fragment } from 'react';
 import { FaPhone } from 'react-icons/fa';
 import './App.css';
-import Tables from './components/tables';
-import Feeds from './components/Feeds';
+import Birds from './components/Birds';
 import Eggs from './components/Eggs';
 import FeedReport from './components/FeedReport';
-import EggsReport from './components/EggsReport';
 
 function App() {
   return (
@@ -23,10 +21,8 @@ function App() {
           <input type="number" min="1" step="any" />
         </div>
         <div className="col">
-          <div className="form-group">
             <label className="required">Date:</label>
             <input type="date" name="date" />
-          </div>
         </div>
       </div>
       <div className="row">
@@ -39,19 +35,15 @@ function App() {
           <input type="number" min="1" step="any" />
         </div>
         <div className="col">
-          <div className="form-group">
             <label className="required">Total Production(%)</label>
             <input type="number" />
-          </div>
         </div>
       </div>
     </div>
-    <div className="container-fluid">
-    <Tables />
-    <Feeds/>
+    <div className="container-fluid mt-2">
+    <Birds />
     <Eggs />
     <FeedReport />
-    <EggsReport />
     </div>
     </Fragment>
   );

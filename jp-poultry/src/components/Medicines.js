@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
+import React,{ Fragment } from 'react';
 
-const Eggs = () => {
+const Medicines = () => {
     return (
         <Fragment>
         <table className="table table-bordered table-sm">
@@ -8,7 +8,6 @@ const Eggs = () => {
             <thead className="text-center">
                 <tr>
                     <th colspan="5">EGGS</th>
-                    <th colspan="6">MEDICINES</th>
                 </tr>
                 <tr>
                     <th>Eggs</th>
@@ -16,12 +15,6 @@ const Eggs = () => {
                     <th>Record Feeds</th>
                     <th>Record(%)</th>
                     <th>REMARKS</th>
-                    <th>Opening</th>
-                    <th>Production</th>
-                    <th>Total Eggs</th>
-                    <th>Sales</th>
-                    <th>Damaged</th>
-                    <th>Closing</th>
                 </tr>
             </thead>
             <tbody>
@@ -31,12 +24,6 @@ const Eggs = () => {
                 <td><input type="text" /></td>
                 <td><input type="text" /></td>
                 <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="number" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
             </tr>
             <tr>
                 <td><input type="text" /></td>
@@ -44,20 +31,8 @@ const Eggs = () => {
                 <td><input type="text" /></td>
                 <td><input type="text" /></td>
                 <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="number" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
             </tr>
             <tr>
-                <td><input type="text" /></td>
-                <td><input type="number" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
-                <td><input type="text" /></td>
                 <td><input type="text" /></td>
                 <td><input type="number" /></td>
                 <td><input type="text" /></td>
@@ -68,8 +43,7 @@ const Eggs = () => {
             </div>
         </table>
         </Fragment>
-
     );
 }
 
-export default Eggs;
+export default Medicines;

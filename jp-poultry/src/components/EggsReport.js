@@ -3,10 +3,11 @@ import React, { Fragment } from 'react';
 const EggsReport = () => {
     return (
         <Fragment>
-        <table className="table table-bordered">
-            <thead>
+        <table className="table table-bordered table-sm">
+        <div className="form-group">
+            <thead className="text-center">
                 <tr>
-                    <th colspan="6" className="text-center">EGGS REPORT</th>
+                    <th colspan="6">EGGS REPORT</th>
                 </tr>
                 <tr>
                     <th>Opening</th>
@@ -35,6 +36,7 @@ const EggsReport = () => {
                     <td><input type="number" /></td>
                 </tr>
             </tbody>
+            </div>
         </table>
         </Fragment>
     );
