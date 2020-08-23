@@ -7,7 +7,7 @@ const Feeds = () => {
             <div className="form-group">
                 <thead className="text-center">
                     <tr>
-                        <th colspan="6">Feeds</th>
+                        <th colSpan="6">Feeds</th>
                     </tr>
                     <tr>
                         <th>Morning Stock</th>
