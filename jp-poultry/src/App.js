@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
-import { Button } from 'react-bootstrap';
 import './App.css';
 import Main from './components/main';
 import NewShed from './components/newshed';
+import Shed from './components/shed';
 import {
   Route,
   BrowserRouter
@@ -16,6 +16,7 @@ function App() {
 	  <BrowserRouter>
 	    <Route exact path="/" component={Main}/>
 	    <Route exact path="/newshed" component={NewShed}/>
+	    <Route exact path="/shed/:shedId" component={Shed}/>
           </BrowserRouter>
 	  </div>
     </Fragment>
