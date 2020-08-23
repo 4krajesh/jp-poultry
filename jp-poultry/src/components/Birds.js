@@ -3,12 +3,12 @@ import React, { Fragment } from 'react';
 const Birds = () => {
     return (
     <Fragment>
-      <table class="table table-bordered table-sm">
       <div className="form-group">
+      <table className="table table-bordered table-sm">
         <thead className="text-center">
         <tr>
-            <th colspan="6">Birds</th>
-            <th colspan="6">Feeds</th>
+            <th colSpan="6">Birds</th>
+            <th colSpan="6">Feeds</th>
         </tr>
         <tr>
             <th>Sl.No</th>
@@ -69,8 +69,8 @@ const Birds = () => {
             <td><input type="text" /></td>
         </tr>
     </tbody>
-    </div>
   </table>
+    </div>
 </Fragment>
     );
 }
